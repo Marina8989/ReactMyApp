@@ -1,14 +1,11 @@
 import React from 'react';
+import './index.css'
 
 
 function App( {title}) {
      return (
        <div>
-          <div style={{padding: '2rem', 
-          border: '1px solid green', 
-          backgroundColor: 'grey', 
-          color: 'white'}}
-          >{title}</div>
+          <div className="bg-gray-600 text-white p-5 border">{title}</div>
        </div>
      ) 
 }
